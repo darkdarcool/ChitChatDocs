@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+---
+
+# Tutorial Intro
+
+Let's discover **ChitChatjs in less than 5 minutes**.
+
+## Getting Started
+
+Get started by **creating a new repl, repo, or any code space.**.
+
+
+## Tutorial Environment Setup
+
+You need to start with a new node/javascript project, and when you have that up, you can create a folder called `tests`. After you've done that, in your package.json file, add
+
+``` json 
+"scripts": {
+  "test": "node tests/mytest.js"
+}
+```
+
+When you've done that, in your tests folder, put a file called `mytest.js` and put the following into it: 
+``` javascript
+var test = require('chitchatsjs')
+```
+Now you can run `npm run test` in your terminal to run tests!
+
+**Huzzah**! You've set up a proper test enviorment for ChitChatjs! 
+
+Now you can go on and use your new enviorment to learn some ChitChatjs! Let's go!

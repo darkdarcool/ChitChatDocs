@@ -1,0 +1,28 @@
+---
+sidebar_position: 3
+---
+
+# Errors
+
+Obviously, your going to make some mistakes, like accidentally not filling out a parameter, using incorrect types, ect. So, instead of giving you 15 errors with ChitChatjs for not filling out a parameter, we'll give you one error about one not being filled out. One example of an error is:
+
+``` javascript
+var test = require('chitchatsjs')
+function divide(num1, num2) {
+  return num1 / num2
+}
+test.TestCase('Example Error Test', () => {
+  return expectToBeText(5)
+});
+```
+
+Did you catch the error? If you didn't, here's a hint, it has something to do with types...
+
+Did you catch it now? If you didn't, no worries! I'll explain it! 
+
+The error is on line **`6`** of the example. The error is an incorrect type. And the error is that you are expecting text! If you look at the function expectation on line **`6`**, you'll see that we are expecting text, and that the error shown in the terminal is:
+
+```
+Error: Type given to number function in Example Error Test is not text.
+```
+This is caused because we made ChitChat think we are expecting text, but then we told it to expect a number! This breaks up type rules, and ChitChat is forced to throw an error at you! This is an example of an error, some errors are on your end and cannot be found by ChitChat.
