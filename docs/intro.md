@@ -16,7 +16,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-export const Link = ({children}) => (
+export const Linkto = ({children}) => (
   <span
         style={{
           textDecoration: 'none',
@@ -34,7 +34,7 @@ Let's discover **ChitChatjs in less than 5 minutes**.
 Get started by **creating a new repl, repo, or any code space.**.
 
 :::tip
-<Link>[replit.com](https://replit.com)</Link> is reccomended for a started codespace
+<Linkto>[replit.com](https://replit.com)</Linkto> is reccomended for a started codespace
 :::
 
 ## Tutorial Environment Setup
