@@ -55,4 +55,4 @@ You can then go back and look at why your function was returning that value, thi
 ChitChat will also let you know what type was returned by the function. In the case above, it's a number, but it can be a string, number, and many more!
 
 :::important
-If you have a type returned that ChitChat doesn't have a function to catch, please let us know in out [GitHub Repo](https://github.com/darkdarcool/chitchat) so we can fix it as soon as possible!
+If you have a type returned that ChitChat doesn't have a function to catch, please let us know in out [GitHub Repo](https://github.com/darkdarcool/ChitChat/issues) so we can fix it as soon as possible!
