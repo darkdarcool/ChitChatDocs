@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: '/Community', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/darkdarcool/ChitChat',
+          href: 'https://github.com/darkdarcool/chitchat',
           label: 'GitHub',
           position: 'right',
         },
