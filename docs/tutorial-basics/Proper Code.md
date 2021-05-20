@@ -26,7 +26,9 @@ test.TestCase('This is my first test', add(2, 2), () => {
   return expectToBeNum(4)
 });
 ```
-
+:::important
+While this may only improve readability, it is important to follow this to make it easy on people to look at the tests.
+:::
 ## Expecting
 
 When you are making an expectation, you need to follow proper ChitChat rules. 
