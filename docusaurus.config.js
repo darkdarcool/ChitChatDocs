@@ -4,9 +4,9 @@ module.exports = {
   tagline: 'Tests are Amazing',
   url: 'https://chit-chat-docs.vercel.app/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/ChitCHat.ico',
+  favicon: 'img/ChitChat.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
