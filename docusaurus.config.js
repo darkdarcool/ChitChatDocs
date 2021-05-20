@@ -12,6 +12,8 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'ChitChatjs',
+     href: 'https://github.com/darkdarcool/chitchat',
+
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
