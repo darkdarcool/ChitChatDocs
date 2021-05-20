@@ -10,6 +10,9 @@ Let's discover **ChitChatjs in less than 5 minutes**.
 
 Get started by **creating a new repl, repo, or any code space.**.
 
+:::tip
+[replit.com](https://replit.com) is reccomended for a started codespace
+:::
 
 ## Tutorial Environment Setup
 
