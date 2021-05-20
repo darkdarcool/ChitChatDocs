@@ -2,7 +2,7 @@
 
 In a TestCase, ChitChat will actually return a value if your test succeded or not. This can be used for exacuting code if you test succeded, or exacuting another test if it succeded. This can be used like this:
 
-```
+``` javascript
 const test = require("chitchatsjs");
 var isSucceded;
 function add(num1, num2) {
