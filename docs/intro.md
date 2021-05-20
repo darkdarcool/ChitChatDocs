@@ -16,6 +16,14 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
+export const Link = ({children}) => (
+  <span
+        style={{
+          text-decoration: none
+        }}>
+        {children}
+  </span>
+);
 <Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
 
 Let's discover **ChitChatjs in less than 5 minutes**.
@@ -25,7 +33,7 @@ Let's discover **ChitChatjs in less than 5 minutes**.
 Get started by **creating a new repl, repo, or any code space.**.
 
 :::tip
-[replit.com](https://replit.com) is reccomended for a started codespace
+<Link>[replit.com](https://replit.com)</Link> is reccomended for a started codespace
 :::
 
 ## Tutorial Environment Setup
