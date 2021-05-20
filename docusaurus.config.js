@@ -12,7 +12,6 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'ChitChatjs',
-     href: 'https://github.com/darkdarcool/chitchat',
 
       logo: {
         alt: 'My Site Logo',
@@ -25,12 +24,6 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/Community', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/darkdarcool/chitchat',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -42,6 +35,7 @@ module.exports = {
             {
               label: 'Tutorial',
               to: '/docs/intro',
+              href: 'https://chit-chat-docs.vercel.app/docs/intro'
             },
           ],
         },
