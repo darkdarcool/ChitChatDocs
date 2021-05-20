@@ -19,7 +19,7 @@ export const Highlight = ({children, color}) => (
 export const Link = ({children}) => (
   <span
         style={{
-          text-decoration: none
+          text-decoration: none,
         }}>
         {children}
   </span>
