@@ -2,7 +2,7 @@
 module.exports = {
   title: 'ChitChatjs',
   tagline: 'Tests are Amazing',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://chit-chat-docs.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
