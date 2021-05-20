@@ -35,7 +35,6 @@ module.exports = {
             {
               label: 'Tutorial',
               to: '/docs/intro',
-              href: 'https://chit-chat-docs.vercel.app/docs/intro'
             },
           ],
         },
