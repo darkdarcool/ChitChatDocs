@@ -7,11 +7,10 @@ sidebar_position: 3
 Obviously, your going to make some mistakes, like accidentally not filling out a parameter, using incorrect types, ect. So, instead of giving you 15 errors with ChitChatjs for not filling out a parameter, we'll give you one error about one not being filled out. One example of an error is:
 
 ``` javascript
-var test = require('chitchatsjs')
 function divide(num1, num2) {
   return num1 / num2
 }
-test.TestCase('Example Error Test', () => {
+TestCase('Example Error Test', () => {
   return expectToBeText(5)
 });
 ```
@@ -32,12 +31,11 @@ This is caused because we made ChitChat think we are expecting text, but then we
 Of course, maybe a function you ae testing at one point doesn't work. That's okay! ChitChatjs let's you know what went wrong! Here is a sample error:
 
 ``` javascript
-var test = require('chitchatsjs');
 function add(num1, num2) {
   return num1 + num2 + 0; // 0 is the error, it is meant to be 1 as + 1
 }
-test.TestCase('Example test', add(2, 2), () => {
-  return test.expectToBeNum(5);
+TestCase('Example test', add(2, 2), () => {
+  return expectToBeNum(5);
 });
 ```
 Of course, the answer your expecting is 5, but the value the function is returning is 4. So, ChitChat will tell you that your function didn't work as expected.

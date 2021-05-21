@@ -36,19 +36,18 @@ When you are making an expectation, you need to follow proper ChitChat rules.
 When you expect something, always put a return statement in front of it, this improves readability and compile time! An example of this is:
 
 ``` javascript
-var test = require('chitchatsjs')
 function add(num1, num2) {
   return num1 + num2;
 }
 // bad
-test.TestCase('This is an example test', add(10, 10), () => {
+TestCase('This is an example test', add(10, 10), () => {
   // ..
-  test.expectToBeNum(20);
+  expectToBeNum(20);
 });
 // good 
-test.TestCase('This is an example test', add(20, 20), () => {
+TestCase('This is an example test', add(20, 20), () => {
   // ..
-  return test.expectToBeNum(40);
+  return expectToBeNum(40);
 });
 ```
 You also should avoid putting more than one expectation in one test, this improves readability. 

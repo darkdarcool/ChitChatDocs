@@ -18,10 +18,9 @@ module.exports = add;
 And in your `tests/mytest.js` file:
 
 ``` javascript
-var test = require("chitchatsjs");
 var add = require("../index.js");
-test.TestCase('First Test', add(2, 6), () => {
-  return test.expectToBeNum(8);
+TestCase('First Test', add(2, 6), () => {
+  return expectToBeNum(8);
 });
 ```
 :::tip
